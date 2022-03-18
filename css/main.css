@@ -1,7 +1,6 @@
 html {
   box-sizing: border-box;
   color: #222;
-  line-height: 1.3rem;
   padding-left: 1rem;
   padding-right: 1rem;
   border: 2px;
@@ -22,25 +21,28 @@ article header {
 
 body {
   margin: 0;
+  padding: 2px;
 }
 
 article {
-  color: #555;
+  color: #222;
 }
 
 article p {
-  font-family: "Crimson Text";
+  font-family: "Crimson Text", normal;
 }
 
 article header p {
   font-style: italic;
+  margin-top: inherit;
 }
 
 article h1 {
-  font-weight: bold;
+  font-weight: normal;
 }
 
 article ol {
+  color: #555;
   padding: 1.125rem;
 }
 
