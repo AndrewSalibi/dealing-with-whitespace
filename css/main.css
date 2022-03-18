@@ -3,7 +3,7 @@ html {
   color: #222;
   padding-left: 1rem;
   padding-right: 1rem;
-  border: 2px;
+  border: 320px;
 }
 
 *, *::before, *::after {
@@ -31,12 +31,13 @@ article {
 }
 
 article p {
-  font-family: "Crimson Text", normal;
+  font-family: "Crimson Text", regular;
 }
 
 article header p {
   font-style: normal;
   margin-top: inherit;
+  font-family: "Crimson Text", italic;
 }
 
 article h1 {
